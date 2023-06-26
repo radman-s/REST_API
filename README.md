@@ -20,10 +20,6 @@ This project demonstrates the usage of the JSONPlaceholder API by making HTTP re
 
 3. The corresponding data will be retrieved from the JSONPlaceholder API and displayed on the console.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgements
 
 - The JSONPlaceholder API (https://jsonplaceholder.typicode.com) for providing the sample data.

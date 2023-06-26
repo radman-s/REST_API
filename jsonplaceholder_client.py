@@ -15,7 +15,7 @@ class JSONPlaceholderAPI:
         data = self.get_data('users')
         for item in data:
             print('----------')
-            print('id:', item['id'])
+            print('Id:', item['id'])
             print('Name:', item['name'])
             print('Email:', item['email'])
 
@@ -24,35 +24,35 @@ class JSONPlaceholderAPI:
         data = self.get_data('comments')
         for item in data:
             print('----------')
-            print('id: ', item['id'])
-            print('name: ', item['name'])
-            print('email: ', item['email'])
-            print('body', item['body'])
+            print('Id: ', item['id'])
+            print('Name: ', item['name'])
+            print('Email: ', item['email'])
+            print('Body', item['body'])
 
 
     def display_albums(self):
         data = self.get_data('albums')
         for item in data:
             print('-----------')
-            print('id', item['id'])
-            print('title', item['title'])
+            print('Id', item['id'])
+            print('Title', item['title'])
 
     def display_photos(self):
         data = self.get_data('photos')
         for item in data:
             print('----------')
-            print('id: ', item['id'])
-            print('title: ', item['title'])
-            print('url: ', item['url'])
-            print('thumbnail url: ', item['thumbnailUrl'])
+            print('Id: ', item['id'])
+            print('Title: ', item['title'])
+            print('Url: ', item['url'])
+            print('Thumbnail url: ', item['thumbnailUrl'])
 
     def display_todos(self):
         data = self.get_data('todos')
         for item in data:
             print('----------')
-            print('di: ', item['id'])
-            print('title: ', item['title'])
-            print('completed: ', item['completed'])
+            print('Id: ', item['id'])
+            print('Title: ', item['title'])
+            print('Completed: ', item['completed'])
 
 
 api = JSONPlaceholderAPI()

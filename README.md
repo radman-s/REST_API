@@ -11,7 +11,7 @@ This project demonstrates the usage of the JSONPlaceholder API by making HTTP re
 ## Usage
 
 1. Run the `main.py` script: python main.py
-2. 2. You will be prompted to choose an endpoint:
+2. You will be prompted to choose an endpoint:
 - Enter `1` to display user information.
 - Enter `2` to display comment information.
 - Enter `3` to display album information.

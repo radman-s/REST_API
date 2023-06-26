@@ -56,7 +56,7 @@ class JSONPlaceholderAPI:
 
 
 api = JSONPlaceholderAPI()
-print('Chose and endpoint: 1: users | 2: comments')
+print('Chose and endpoint: 1: users | 2: comments | 3: albums | 4: photos | 5: todos')
 
 input_endpoint = input('Enter an endpoint: ')
 if input_endpoint == '1':

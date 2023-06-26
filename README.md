@@ -12,11 +12,11 @@ This project demonstrates the usage of the JSONPlaceholder API by making HTTP re
 
 1. Run the `main.py` script: python main.py
 2. You will be prompted to choose an endpoint:
-- Enter `1` to display user information.
-- Enter `2` to display comment information.
-- Enter `3` to display album information.
-- Enter `4` to display photo information.
-- Enter `5` to display todo information.
+- Enter `1` to display users information.
+- Enter `2` to display comments information.
+- Enter `3` to display albums information.
+- Enter `4` to display photos information.
+- Enter `5` to display todos information.
 
 3. The corresponding data will be retrieved from the JSONPlaceholder API and displayed on the console.
 
